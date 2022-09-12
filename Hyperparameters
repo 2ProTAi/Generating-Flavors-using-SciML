@@ -1,0 +1,31 @@
+Parameters	Deep Generative Model's Value
+α	-
+Batch size	20
+Block size	1000
+Epochs	1000
+Generation epoch	790
+GGNN activation function	SELU
+GGNN depth	4
+GGNN dropout probability	0
+GGNN hidden dimension	250
+GGNN width	100
+Initial learning rate	1.00x10^(-4)
+Learning rate decay factor	0.99
+Learning rate decay interval	10
+Loss function	Kullback-Leibler divergence
+Maximum relative learning rate	1.00
+Message passing layers	3
+Message size – input size of GRU	100
+Minimum relative learning rate	1.00x10^(-4)
+MLP activation function	SoftMax
+MLP depth
+(Layers 1 and 2)	4
+MLP dropout probability
+(Layers 1 and 2)	0
+MLP hidden dimension
+(Layers 1 and 2)	500
+Number of samples	200
+Optimizer	Adam
+σ	-
+Weight decay	0
+Weight initialization	Uniform
